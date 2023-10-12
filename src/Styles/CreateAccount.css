@@ -1,0 +1,36 @@
+input {
+  width: 200px;
+  height: 30px;
+}
+.container {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: green;
+}
+
+.createAccount {
+  width: 50%;
+  background-color: aqua;
+  padding: 15px;
+}
+
+.terms {
+  color: white;
+  height: 15px;
+  margin: 0;
+  width: 20px;
+}
+
+.TermsAndConditions {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.TLabel {
+  margin-right: 0;
+  padding: 0;
+  width: 5px;
+  height: 5px;
+}

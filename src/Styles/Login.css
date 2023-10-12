@@ -1,0 +1,52 @@
+.container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: green;
+}
+
+.login {
+  padding: 10px;
+
+  background-color: palegoldenrod;
+  height: 300px;
+  width: 700px;
+  min-width: auto;
+  position: relative;
+}
+input {
+  width: 300px;
+  height: 30px;
+  margin: 10px;
+
+  min-width: auto;
+}
+
+.LoginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  min-width: auto;
+}
+
+.bottomBorder {
+  height: 1px;
+  width: 5px;
+  border-bottom-width: 50px;
+  border-radius: 1px;
+  border-bottom-color: black;
+  border-radius: 1px;
+}

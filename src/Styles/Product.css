@@ -1,0 +1,31 @@
+.Product {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: auto;
+}
+
+.cards {
+  margin-top: 10px;
+  width: auto;
+  height: 200px;
+}
+
+.description {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+button {
+  background-color: #04aa6d;
+  margin: 5px;
+  cursor: pointer;
+  float: none;
+}
+
+
